@@ -1,0 +1,19 @@
+# Benchmark results and all other CSVs (queries CSV is fetched, results are generated)
+*.csv
+
+# Spider4SPARQL / ValueNet artifacts — fetched via prepare_dataset.py + manual KG download
+materialized_triples/
+ontologies/
+queries/
+
+# Generated intermediary artifacts — built by build_enriched_benchmark.py
+materialized_triples_enriched/
+ontologies_enriched/
+
+# Environment / OS / IDE
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
